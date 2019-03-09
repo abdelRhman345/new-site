@@ -1,0 +1,48 @@
+body {
+    direction: rtl !important;
+    font-family: 'Markazi Text', serif;
+    background-color: $brandColor;
+}
+
+// Text Header
+.text {
+    margin: 50px auto;
+    text-align: center;
+    p {
+        font-size: 25px;
+        line-height: 1.9;
+        text-align: center;
+    }
+}
+
+h1 {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 50px;
+    line-height: 1.2;
+    width: 400px;
+    background-color: #e31837;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.card {
+    margin: 20px;
+    overflow: hidden;
+    img {
+        transition: .3s linear;
+    }
+    .list-group {
+        background-color: $primaryColor;
+        .list-group-item {
+            background-color: $primaryColor;
+            color: #fff
+        }
+    }
+    &:hover {
+        img {
+            transform: scale(1.1)
+        }
+    }
+}
